@@ -4,5 +4,11 @@
 int main() {
     int arr[5] = {10, 20, 30, 40, 50};
     // Código para imprimir direcciones de memoria aquí
+    for (int i = 0; i < 5; i++) {
+        printf("La dirección de arr[%d] es: %p\n", i, (void*)&arr[i]);
+    }
+    return 0;
+}
+
     return 0;
 }
